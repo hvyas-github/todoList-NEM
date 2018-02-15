@@ -4,7 +4,8 @@
   "description": "A simple CRUD APIs for todolist in node and mongo db",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
   },
   "keywords": [
     "node",
@@ -13,5 +14,13 @@
     "API"
   ],
   "author": "Harsh Vyas <hmvharsh@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.14.12"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongoose": "^5.0.5"
+  }
 }
