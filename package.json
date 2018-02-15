@@ -1,0 +1,17 @@
+{
+  "name": "todolistapi",
+  "version": "1.0.0",
+  "description": "A simple CRUD APIs for todolist in node and mongo db",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "mongodb",
+    "RESTFUL",
+    "API"
+  ],
+  "author": "Harsh Vyas <hmvharsh@gmail.com>",
+  "license": "ISC"
+}
